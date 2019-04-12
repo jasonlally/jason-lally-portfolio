@@ -7,7 +7,7 @@ module.exports = {
     title: 'Jason Lally | Civic Data Leader',
     subtitle:
       'Leader in civic data and its many uses with 10+ years experience in data management, analysis, visualization, and engineering. I helped build DataSF into a world-recognized program empowering use of San Francisco\'s data.',
-    copyright: '© All rights reserved.',
+    copyright: '',
     disqusShortname: '',
     menu: [
       {
@@ -17,10 +17,6 @@ module.exports = {
       {
         label: 'About me',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {
