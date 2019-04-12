@@ -2,7 +2,7 @@
 title: Data Standards Reference Handbook
 date: "2018-11-29"
 layout: post
-draft: false
+draft: true
 path: "/projects/data-standards-reference"
 category: "Interactive"
 tags:

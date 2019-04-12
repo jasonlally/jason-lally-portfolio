@@ -35,7 +35,7 @@ In May of 2017, [new building footprints were released to the open data portal](
 
 ## Approach
 
-Since just a demonstration, I placed emphasis on keeping code dependencies small. Minimal libraries and no frameworks. It's a Javascript/CSS/HTML site with a single index.html. Ultimately, we wanted to develop an MVP, not a full-fledged application. 
+I placed emphasis on keeping code dependencies small using minimal libraries and no frameworks. It's a Javascript/CSS/HTML site with a single index.html. Ultimately, we wanted to develop an MVP, not a full-fledged application. 
 
 I also wanted someone to pick through the code and build understanding of what's happening without having to understand a particular framework.
 
