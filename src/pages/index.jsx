@@ -1,12 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, withPrefix } from 'gatsby'
 import Layout from '../components/Layout'
 import Intro from '../components/Intro'
 import Sidebar from '../components/Sidebar'
 import Section from '../components/Section'
 import Unit from '../components/Unit'
 
+import fullResume from '../pages/jason_lally_resume.pdf'
 import ccsf from '../assets/images/ccsf.png'
 import pm from '../assets/images/pm.png'
 import interfaceLogo from '../assets/images/interface.png'
@@ -37,6 +38,7 @@ class IndexRoute extends React.Component {
           <title>{title}</title>
           <meta name="description" content={subtitle} />
         </Helmet>
+        console.log(this.props)
         <Sidebar {...this.props} />
         <div className="content">
           <div className="content__inner">
@@ -97,10 +99,16 @@ class IndexRoute extends React.Component {
                 description="On a part-time basis during graduate school, contributed design, technology and analytical support to client urban planning projects. This included design work in Photoshop and Illustrator and analytical work in ArcGIS."
               />
             </Section>
+            <a
+              rel="noopener noreferrer"
+              href={withPrefix('/jason_lally_resume.pdf')}
+              target="_blank"
+            >
+              Download full resume
+            </a>
             <Section title="Projects">
               { items }
             </Section>
-            
           </div>
         </div>
       </Layout>
