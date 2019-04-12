@@ -13,7 +13,7 @@ class Links extends React.Component {
       rss: author.rss,
       email: author.email,
     }
-
+    console.log(links)
     return (
       <div className="links">
         <ul className="links__list">
@@ -42,25 +42,6 @@ class Links extends React.Component {
               rel="noopener noreferrer"
             >
               <i className="icon-linkedin-squared" />
-            </a>
-          </li>
-        </ul>
-        <ul className="links__list">
-          <li className="links__list-item">
-            <a href={`mailto:${links.email}`}>
-              <i className="icon-mail" />
-            </a>
-          </li>
-          <li className="links__list-item">
-            <a href={`telegram:${links.telegram}`}>
-              <i className="icon-paper-plane" />
-            </a>
-          </li>
-        </ul>
-        <ul className="links__list">
-          <li className="links__list-item">
-            <a href={links.rss}>
-              <i className="icon-rss" />
             </a>
           </li>
         </ul>

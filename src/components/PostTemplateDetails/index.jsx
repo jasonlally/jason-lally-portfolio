@@ -74,14 +74,8 @@ class PostTemplateDetails extends React.Component {
                   /* eslint-disable-next-line react/no-danger */
                   dangerouslySetInnerHTML={{ __html: post.html }}
                 />
-                <div className="post-single__date">
-                  <em>
-                    Published {moment(post.frontmatter.date).format('D MMM YYYY')}
-                  </em>
-                </div>
               </div>
               <div className="post-single__footer">
-                {tagsBlock}
                 <hr />
                 <p className="post-single__footer-text">
                   {subtitle}

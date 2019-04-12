@@ -3,7 +3,6 @@ import get from 'lodash/get'
 import { Link } from 'gatsby'
 import Menu from '../Menu'
 import Links from '../Links'
-import profilePic from '../../pages/photo.jpg'
 import './style.scss'
 
 class Sidebar extends React.Component {
@@ -11,7 +10,6 @@ class Sidebar extends React.Component {
     const { location } = this.props
     const {
       author,
-      subtitle,
       copyright,
       menu,
     } = this.props.data.site.siteMetadata
