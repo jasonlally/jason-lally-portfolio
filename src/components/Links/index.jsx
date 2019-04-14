@@ -13,7 +13,6 @@ class Links extends React.Component {
       rss: author.rss,
       email: author.email,
     }
-    console.log(links)
     return (
       <div className="links">
         <ul className="links__list">

@@ -148,8 +148,7 @@ figcaption {
 }
 
 .content {
-    margin-right: 35%;
-    width: 65%;
+    width: 100%;
     &__inner {
         padding: 40px 20px;
     }
@@ -176,6 +175,8 @@ figcaption {
 
 @include breakpoint-md {
     .content {
+        margin-right: 35%;
+        width: 65%;
         &__inner {
             padding: 40px 40px 40px 150px;
         }

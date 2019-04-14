@@ -3,7 +3,6 @@
 
 .unit {
   margin-bottom: 1.25rem;
-  lost-column: 1/3;
   &__image {
     width: 100%;
     height: 130px;
@@ -38,6 +37,13 @@
   &__description {
     @include padding(.25,0);
     color: $color-base;
+  }
+
+  @include breakpoint-sm {
+    lost-column: 1/2;
+  }
+  @include breakpoint-md {
+    lost-column: 1/3;
   }
 /*
   @include media('>=medium', '<large') {
