@@ -51,9 +51,9 @@ Below, I'll highlight some projects I delivered to support open data.
 
 ## Outcomes
 
-1. **150+% increase in available data on the portal over 3 years.** Providing consistent, centralized publishing and data pipeline development helped increase available data on the portal 
+1. **136% increase in available data on the portal between August 2014 and October 2019.** Providing consistent, centralized publishing and data pipeline development helped increase available data on the portal 
 2. **96% of datasets published with APIs.** Before the publishing program was established, only about 35% of open datasets had APIs, the remainder were posted as external links to files. This has improved accessibility to and reuse of data.
-3. **85% of datasets updated on time on average.** Timely data is important. Datasets that don't meet their update schedule are generally those maintained manually by departments. Data automated for departments by DataSF meets the update schedule closer to 100% of the time.
+3. **84% of datasets amenable to automation automated.** Timely data is important. We built out an automation program to support the timely publishing of data.
 
 ## Out in the world
 
