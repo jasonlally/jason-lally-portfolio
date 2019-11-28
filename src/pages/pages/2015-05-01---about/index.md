@@ -10,7 +10,7 @@ Before working at the City, I worked at the intersection of technology and urban
 
 I enjoy my life in the heart of San Francisco living with my loving partner and our two cats, Ru and Paul.
 
-[Download full resume](./jason_lally_resume.pdf)
+[Download full resume](/jason_lally_resume.pdf)
 
 ## Values
 Wherever I go, I bring the following values with me:

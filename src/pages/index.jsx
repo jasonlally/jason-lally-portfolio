@@ -100,7 +100,7 @@ class IndexRoute extends React.Component {
             </Section>
             <a
               rel="noopener noreferrer"
-              href={withPrefix('/jason_lally_resume.pdf')}
+              href={withPrefix('./jason_lally_resume.pdf')}
               target="_blank"
             >
               Download full resume
